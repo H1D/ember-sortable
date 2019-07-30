@@ -1,12 +1,37 @@
 # ember-sortable changelog
 
-## 1.13.0 (2019-04-04)
+## 1.12.9 (2019-06-11)
 
 #### :rocket: Enhancement
-* [#238](https://github.com/heroku/ember-sortable/pull/238) {{sortable-item}} as сlosure component ([@H1D](https://github.com/H1D))
+* [#259](https://github.com/heroku/ember-sortable/pull/259) Expect native events instead of jQuery wrapped events ([@stephencattaneo](https://github.com/stephencattaneo))
 
 #### Committers: 1
-- Artem Suschev ([@H1D](https://github.com/H1D))
+- [@stephencattaneo](https://github.com/stephencattaneo)
+
+## 1.12.8 (2019-05-22)
+
+#### :bug: Bug Fix
+* [#249](https://github.com/heroku/ember-sortable/pull/249) move @ember/jquery to devDependency ([@fran-worley](https://github.com/fran-worley))
+* [#251](https://github.com/heroku/ember-sortable/pull/251) Add warning to polyfill `Element.closest()` ([@samhogg](https://github.com/samhogg))
+
+#### :house: Internal
+* [#245](https://github.com/heroku/ember-sortable/pull/245) Add Ember 2.8, 2.12 to testing. Test Node 8. ([@mixonic](https://github.com/mixonic))
+
+#### Committers: 3
+- Fran Worley ([@fran-worley](https://github.com/fran-worley))
+- Matthew Beale ([@mixonic](https://github.com/mixonic))
+- Sam Hogg ([@samhogg](https://github.com/samhogg))
+
+## 1.12.7 (2019-04-24)
+
+#### :bug: Bug Fix
+* [#227](https://github.com/heroku/ember-sortable/pull/227) Tweak clientHeight calculation in drag helper ([@jgwhite](https://github.com/jgwhite))
+* [#244](https://github.com/heroku/ember-sortable/pull/244) Fix subtle bug in sortable-item#thaw ([@jgwhite](https://github.com/jgwhite))
+* [#242](https://github.com/heroku/ember-sortable/pull/242) Runloop tweaks ([@mixonic](https://github.com/mixonic))
+
+#### Committers: 2
+- Jamie White ([@jgwhite](https://github.com/jgwhite))
+- Matthew Beale ([@mixonic](https://github.com/mixonic))
 
 ## 1.12.6 (2019-02-25)
 
